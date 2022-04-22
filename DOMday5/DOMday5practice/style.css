@@ -1,0 +1,10 @@
+.remove{
+    background-color: bisque;
+    border: 1px solid yellowgreen;
+}
+.up{
+    background-color: rgb(191, 135, 135);
+}
+.down{
+    background-color: rgb(155, 155, 187);
+}

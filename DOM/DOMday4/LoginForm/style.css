@@ -1,0 +1,20 @@
+#logindiv{
+   background-color:rgba(255, 255, 0, 0.475);
+   height: 200px;
+   width: 200px;
+   margin-left: 20px;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+   font-style: bold;
+   border-radius: 10px;
+   
+}
+body{
+   background-color: antiquewhite;
+}
+#cloud{
+   position: relative;
+}
+h1{
+   margin-top:20px;
+}

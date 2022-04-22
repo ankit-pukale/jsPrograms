@@ -1,0 +1,13 @@
+h1{
+    color:red;
+    background-color: greenyellow;
+}
+p{
+    color:aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+}
