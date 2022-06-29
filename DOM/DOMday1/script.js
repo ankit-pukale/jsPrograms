@@ -2,6 +2,8 @@ let header=document.querySelector("h1")
 let para=document.querySelector("p")
 header.addEventListener("mouseenter",function(){
     header.style.color="yellow"
+    navigator.clipboard.writeText(header.textContent,String)
+   
 })
 let getid=document.querySelector("#test")
 getid.addEventListener("click",function(){

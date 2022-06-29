@@ -1,13 +1,10 @@
-let PCconfig=function(rm,hdd,cpu){
-    this.Ram=rm
-    this.Storage_space=hdd
-    this.CPU=cpu
-}
-let HP =new PCconfig("16GB","500GB","I7 3rd Gen")
-console.log(HP instanceof PCconfig)
-console.log(HP)
-//proto type
-PCconfig.prototype.PcDetails=function(){
-    console.log(`Ram=${this.Ram},\nStorageSpace=${this.Storage_space},\nCPU=${this.cpu}`)
-}
-HP.PcDetails()
+let str='this 12 is 22 my 21 car'
+let arr=str.split(' ')
+console.log(arr.filter(function(el){
+    return (Number(el))
+}).map(function(el){
+        return Number(el)
+}).reduce(function(acc,el){
+    return acc+el
+}))
+

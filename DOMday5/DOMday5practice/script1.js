@@ -5,15 +5,20 @@ let txtin=document.querySelector("input")
 for(let i=0;i<liList.length;i++){
     createButton(liList[i])
 }
+let txt
 btn.addEventListener('click',function(){
-    if(txtin.value===""){}
+    if(txtin.value===""){
+        // alert('Input text can not be blank')
+       txt= prompt("Input text can not be blank Please enter valid text:")
+    }
     else{
-    let txt=txtin.value
+    txt=txtin.value
+    }
     let a=document.createElement('li')
     a.textContent=txt  
     createButton(a)  
     ul.appendChild(a)    
-    txtin.value=""}
+    txtin.value=""
 })
 ul.addEventListener('click',function(e){
    
@@ -29,9 +34,10 @@ ul.addEventListener('click',function(e){
         if(e.target.className ==="up"){
             let li=e.target.parentElement
             let ul=li.parentElement
-          let prevli= li.previousElementSibling
+          let prevli= li.previousElementSibling          
+          if(prevli!=null){
           ul.insertBefore(li,prevli)
-
+          }
         }
     
    

@@ -15,6 +15,7 @@ let obj=[{
     username:"naaz",
     password:"naaz@123"
 }]
+
 btn.addEventListener('click',function(){
    let i=0
    while(i<obj.length){
